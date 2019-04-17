@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document created by Christy Chatmon, Spring 2019*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Garamond Header;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #96B97A;
+	background-color: #fff;
+	padding: 0 40px;
+}
+
+/* basic text styles ------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #D3D3D3;
+	padding: 0 40px;
+	
+}
+h1 {
+	font-size: 39px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	margin: 0;
+}
+h2 { 
+	font-size: 30px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	
+}
+h3 {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	border-bottom-width: 7px;
+	border-bottom-style: inset;
+	border-bottom-color: #4E7B96;
+	padding: 0 40px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ------------- */
+a:link {
+	font-weight: small-caps;
+	color: #4E7B96;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: small-caps
+	color: #4E7B96;
+	text-decoration: none;
+}
+a:hover {
+	color: #FDF600;
+}
+
+/* list styles --------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 60px;
+}
+ol li {
+	padding-left: 60px;
+}
+
+/* table styles ------------------------------ */
+table {
+	border: solid #4E7B96 1px;
+}
+td {
+	padding: 6px;
+	border: solid #999933 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #8B0000;
+	text-align: center;
+	padding: 8px;
+	border: solid #999933 1px;
+}
+
+/* border styles ------------------------ */
+hr {
+	border: solid #4E7B96 1px;
+}
+
+img {
+	border: none 1px;
+
+}
+
+iframe {
+	border: none 1px;
+	padding: 40px;
+	margin: 100px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #8B0000;
+	overflow: hidden;
+}
+#header{
+	width: 100%;
+	background-color: #8B0000;
+	border-bottom: 1px solid #4E7B96;
+	padding-bottom: 40px;
+	
+}
+
+#content{
+	width: 600px;
+	float: left;
+	padding-bottom: 40px;
+}
+#sidebar{
+	width: 280px;
+	float: left;
+	margin-top: 50px;
+	margin-right:20px;
+}
+#sidebar p{
+	padding: 10px;
+	background: #96B97A;
+	border: 1px solid #f00;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888;
+}
+
+#footer{
+	width: 100%;
+	background-color: #8B0000;
+	border-top: 3px solid #4E7B96;
+	padding: 40px 0;
+	clear: both;
+}
+#footer p {
+	margin: 0;
+}
+
+
